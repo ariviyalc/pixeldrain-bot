@@ -18,9 +18,9 @@ START_TEXT = """Hello {},
 Please send a media for pixeldrain.com stream link. \
 You can also send pixeldrain media ID or link to get more info.
 
-Made by @FayasNoushad"""
+Powered By @PRO_XBOTS"""
 
-BUTTON = InlineKeyboardButton(text="Feedback", url="https://telegram.me/FayasNoushad")
+BUTTON = InlineKeyboardButton(text="❤️ Join", url="https://telegram.me/pro_xbots")
 
 
 @Bot.on_message(filters.private & filters.command("start"))
